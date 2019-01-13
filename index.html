@@ -1,1 +1,149 @@
-Hello World
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home &middot; Fabio Rocco</title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="statics/css/style.min.css">
+</head>
+<body>
+<header id="top">
+    <nav class="flex-container">
+        <div class="flex-one flex-container">
+            <div><a href="#top"><i class="fa fa-home"></i><span class="hide-small">Home</span></a></div>
+            <div><a href="#projects"><i class="fa fa-umbrella-beach"></i><span class="hide-small">Projects</span></a></div>
+            <div><a href="#about"><i class="far fa-id-card"></i><span class="hide-small">Abouts</span></a></div>
+            <div><a href="#skills"><i class="far fa-chart-bar"></i><span class="hide-small">Skills</span></a></div>
+        </div>
+        <div class="flex-one text-center">
+            <img src="statics/medias/viking.svg" alt="logo viking">
+        </div>
+        <div class="flex-one">
+            <div><a href="mailto:fabio.rocco@live.fr"><i class="fa fa-envelope"></i><span class="hide-small">Contact</span></a></div>
+        </div>
+    </nav>
+</header>
+<div class="banner">
+    <img class="background obj-center" src="statics/medias/home-forest.jpg" alt="Home Forest in grayscale">
+    <div class="post">
+        <div class="centered">
+            <h1 class="text-white">Fabio Rocco</h1>
+            <h2>Développeur web full stack</h2>
+            <a href="#body"><i class="fas fa-angle-double-down toggle-float text-white"></i></a>
+        </div>
+    </div>
+</div>
+<div id="body"></div>
+<section id="about" class="flex-container around min-height row">
+    <div class="visit front">
+        <div class="container">
+            <header>
+                <p>Fabio Rocco</p>
+            </header>
+            <div class="content">
+                <p><i class="fas fa-briefcase"></i><strong>Web Developper</strong></p>
+                <p><i class="fas fa-map-pin"></i>Paris</p>
+                <p><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/fabio-rocco-435219ba/" target="_blank">/in/fabio-rocco</a></p>
+                <p><i class="fab fa-github"></i><a href="https://github.com/fabiorocco" target="_blank">fabiorocco</a></p><br>
+                <p><i class="fas fa-phone"></i><a href="tel:+33637709531" target="_blank">+33 6 37 70 95 31</a></p>
+                <p><i class="fas fa-at"></i><a href="mailto:fabio.rocco@live.fr" target="_blank">fabio.rocco@live.fr</a></p>
+            </div>
+        </div>
+        <div class="background ellipse-left" style="background-image: url('statics/medias/lama.jpg')"></div>
+    </div>
+    <div class="visit back" style="background-image: url('statics/medias/shirakawa-japan.jpg')">
+        <p><i class="far fa-chart-bar fa-round"></i><br><strong>Project</strong></p>
+        <p><i class="fas fa-desktop fa-round"></i><br><strong>Development</strong></p>
+        <p><i class="fas fa-coffee fa-round"></i><br><strong>Coffee</strong></p>
+        <p><i class="fas fa-pen-fancy fa-round"></i><br><strong>UX/UI</strong></p>
+        <p><i class="fas fa-film fa-round"></i><br><strong>Movie</strong></p>
+    </div>
+</section>
+<section id="projects">
+    <div class="flex-container mid-height">
+        <div class="one background centered" style="background-image: url('statics/medias/mountain-chewbacca.jpg');"></div>
+        <div class="two">
+            <p class="padding-min min-marg"><strong>Chewie</strong><br>_ _ _ _<br><br>The application Chewie is a bridge between the user and the website, it allows to publish on the site and manage applications from it.</p>
+            <div class="flex-container vert-center min-marg around text-center">
+                <div class="flex-one">
+                    <img class="apps-icon" src="https://vuejs.org/images/logo.png" alt="VueJs logo">
+                </div>
+                <div class="flex-one">
+                    <img class="apps-icon" src="https://webpack.js.org/d19378a95ebe6b15d5ddea281138dcf4.svg" alt="Webpack logo">
+                </div>
+                <div class="flex-one">
+                    <img class="apps-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="NodeJs logo">
+                </div>
+                <div class="flex-one">
+                    <img class="apps-icon" src="https://avatars3.githubusercontent.com/u/12559275?s=400&v=4" alt="Github logo">
+                </div>
+                <div class="flex-one">
+                    <img class="apps-icon" src="https://d33wubrfki0l68.cloudfront.net/7a197cfe44548cc1a3f581152af70a3051e11671/78df8/img/babel.svg" alt="Babel logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="flex-container mid-height">
+        <div class="one flex-container">
+            <div class="one background centered" style="background-image: url('statics/medias/adelle-carribou.jpg');"></div>
+            <div class="two">
+                <p class="padding-min min-marg"><strong>Adelle</strong><br>_ _ _ _<br><br>The aim of the Adelle project is to centralize all the information <strong>GREEN Conseil</strong> has in one single application that will be distributed in several mini-applications.</p>
+                <div class="flex-container vert-center min-marg around text-center">
+                    <div class="flex-one">
+                        <svg alt="Laravel logo" xmlns="http://www.w3.org/2000/svg" width="4em" height="57.6" viewBox="0 0 84.1 57.6"><path fill="#FB503B" d="M83.8 26.9c-.6-.6-8.3-10.3-9.6-11.9-1.4-1.6-2-1.3-2.9-1.2s-10.6 1.8-11.7 1.9c-1.1.2-1.8.6-1.1 1.6.6.9 7 9.9 8.4 12l-25.5 6.1L21.2 1.5c-.8-1.2-1-1.6-2.8-1.5C16.6.1 2.5 1.3 1.5 1.3c-1 .1-2.1.5-1.1 2.9S17.4 41 17.8 42c.4 1 1.6 2.6 4.3 2 2.8-.7 12.4-3.2 17.7-4.6 2.8 5 8.4 15.2 9.5 16.7 1.4 2 2.4 1.6 4.5 1 1.7-.5 26.2-9.3 27.3-9.8 1.1-.5 1.8-.8 1-1.9-.6-.8-7-9.5-10.4-14 2.3-.6 10.6-2.8 11.5-3.1 1-.3 1.2-.8.6-1.4zm-46.3 9.5c-.3.1-14.6 3.5-15.3 3.7-.8.2-.8.1-.8-.2-.2-.3-17-35.1-17.3-35.5-.2-.4-.2-.8 0-.8S17.6 2.4 18 2.4c.5 0 .4.1.6.4 0 0 18.7 32.3 19 32.8.4.5.2.7-.1.8zm40.2 7.5c.2.4.5.6-.3.8-.7.3-24.1 8.2-24.6 8.4-.5.2-.8.3-1.4-.6s-8.2-14-8.2-14L68.1 32c.6-.2.8-.3 1.2.3.4.7 8.2 11.3 8.4 11.6zm1.6-17.6c-.6.1-9.7 2.4-9.7 2.4l-7.5-10.2c-.2-.3-.4-.6.1-.7.5-.1 9-1.6 9.4-1.7.4-.1.7-.2 1.2.5.5.6 6.9 8.8 7.2 9.1.3.3-.1.5-.7.6z"></path></svg>
+                    </div>
+                    <div class="flex-one">
+                        <img class="apps-icon" src="https://getcomposer.org/img/logo-composer-transparent4.png" alt="Composer logo">
+                    </div>
+                    <div class="flex-one">
+                        <img class="apps-icon" src="https://www.apollo-formation.com/wp-content/uploads/phpunitfinal-250x208.png" alt="PHPUnit logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="two background centered" style="background-image: url('statics/medias/snowed-forest.jpg');"></div>
+    </div>
+    <div class="flex-container mid-height">
+        <div class="one background centered" style="background-image: url('statics/medias/tython.jpg');"></div>
+        <div class="two">
+            <p class="padding-min min-marg"><strong>Tython</strong><br>_ _ _ _<br><br>Junior consultant, expert in web technologies as part of the migration support of the communication department of one of the big names of telecoms intranet & web sites.</p>
+            <div class="flex-container vert-center min-marg around text-center">
+                <div class="flex-one">
+                    <img class="apps-icon" src="https://s.w.org/style/images/about/WordPress-logotype-wmark.png" alt="Wordpress logo">
+                </div>
+                <div class="flex-one">
+                    <img class="apps-icon" src="https://elementor.com/wp-content/uploads/2018/10/elementor-site-logo.png" alt="Elementor logo">
+                </div>
+                <div class="flex-one">
+                    <img class="apps-icon" src="https://www.3li.com/New/wp-content/uploads/2017/04/SHAREPOINT-logo.png" alt="Sharepoint logo">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="background flex-container position-y-m" style="background-image: url('statics/medias/cliff.jpg');">
+    <div class="flex-med caption">
+        <div class="padding-med">
+            <header class="bordered">
+                <h2>Fabio Rocco Web Developpeur sur Paris</h2>
+            </header>
+            <p>I am a young Padawan of the universe in the world of <strong>web developers</strong> based in the heart of <strong>Paris</strong>.<br><br>
+                Passionate about this environment and listening to the client, I am able to bring you my expertise while long of a project on all the subjects which attaches to the <strong>digital world</strong>.<br><br>
+                With my experience of more than 5 years in a <strong>Project Management</strong> consulting company and also in my school EPITA, you can contact me for any request for information or quote.
+            </p>
+        </div>
+    </div>
+</section>
+<footer class="flex-container text-white around vert-center text-center tiny-height bg-primary">
+    <div class="four" style="width: 25%;">&copy; Fabio Rocco 2019 - Web Developper</div>
+    <div class="four"><a href="http://127.0.0.1:8000/contact" style="color: inherit !important;">Contact</a></div>
+    <div class="four"><a href="https://www.green-conseil.com/" style="color: inherit !important;">GREEN Conseil</a></div>
+    <div class="four"><a href="http://www.epita.fr/" style="color: inherit !important;">EPITA</a></div>
+</footer>
+</body>
